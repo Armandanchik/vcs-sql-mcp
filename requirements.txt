@@ -1,0 +1,2 @@
+fastmcp>=3.4,<4
+pymysql>=1.1
