@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lukas Kelevisius — Compliance Specialist</title>
+  <meta name="description" content="Lukas Kelevisius is a compliance specialist helping fintechs and regulated businesses build AML/CTF, data protection and operational-resilience programmes that pass inspection and let teams move faster." />
+  <meta name="theme-color" content="#F3F1EC" />
+  <meta property="og:title" content="Lukas Kelevisius — Compliance Specialist" />
+  <meta property="og:description" content="Compliance that lets you move faster. AML/CTF, GDPR, DORA, MiCA and licensing for regulated businesses." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121417'/%3E%3Ccircle cx='32' cy='32' r='10' fill='%23115E48'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three.module.min.js" } }
+  </script>
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__mark">LK</span>
+      <span class="loader__count mono" id="loaderCount">00</span>
+    </div>
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" data-cursor="link">
+      <span class="nav__mark"><i></i></span>
+      <span class="nav__name">Lukas Kelevisius</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services" data-cursor="link">Services</a>
+      <a href="#approach" data-cursor="link">Approach</a>
+      <a href="#radar" data-cursor="link">Radar</a>
+      <a href="#about" data-cursor="link">About</a>
+    </nav>
+    <a class="btn btn--small magnetic" href="#contact" data-cursor="link">
+      <span>Book a call</span>
+    </a>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__canvas" id="scene" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="eyebrow mono reveal-up">
+          <span class="dot"></span>
+          Compliance specialist · Vilnius, Lithuania
+        </p>
+
+        <h1 class="hero__title" id="heroTitle">
+          <span class="line"><span class="line__inner">Compliance that</span></span>
+          <span class="line"><span class="line__inner">lets you <em>move</em></span></span>
+          <span class="line"><span class="line__inner">faster.</span></span>
+        </h1>
+
+        <p class="hero__lead reveal-up">
+          I help fintechs, crypto-asset providers and regulated businesses build
+          AML/CTF, data-protection and operational-resilience programmes that
+          satisfy supervisors without slowing the product down.
+        </p>
+
+        <div class="hero__actions reveal-up">
+          <a href="#contact" class="btn magnetic" data-cursor="link"><span>Start a conversation</span><i class="btn__arrow"></i></a>
+          <a href="#services" class="link-arrow" data-cursor="link">See what I do</a>
+        </div>
+      </div>
+
+      <div class="hero__meta mono reveal-up">
+        <span>Scroll</span>
+        <span class="hero__scrollline"><i></i></span>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>AML / CTF</span><span>GDPR</span><span>DORA</span><span>MiCA</span><span>PSD2 · PSD3</span><span>AMLR / AMLA</span><span>ISO 27001</span><span>Sanctions</span><span>Licensing</span>
+        <span>AML / CTF</span><span>GDPR</span><span>DORA</span><span>MiCA</span><span>PSD2 · PSD3</span><span>AMLR / AMLA</span><span>ISO 27001</span><span>Sanctions</span><span>Licensing</span>
+      </div>
+    </div>
+
+    <!-- Statement -->
+    <section class="statement" id="statement">
+      <p class="statement__text" id="statementText">
+        Most compliance programmes are built to survive an audit. The good ones
+        are built so the business can say yes to the next market, the next
+        partner and the next product — with the evidence already in hand.
+      </p>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="section-head">
+        <span class="section-head__index mono">01</span>
+        <h2 class="section-head__title">What I do</h2>
+        <p class="section-head__note">Senior, hands-on work. No junior hand-offs, no 200-page reports nobody reads.</p>
+      </div>
+
+      <ul class="services__list">
+        <li class="service" data-cursor="view">
+          <span class="service__index mono">01</span>
+          <h3 class="service__title">AML / CTF programme design</h3>
+          <p class="service__desc">Risk assessments, CDD/EDD procedures, transaction-monitoring rules, sanctions screening and MLRO support — calibrated to your actual risk, not a template. Ready for the AMLR single rulebook.</p>
+          <span class="service__tag mono">Programme</span>
+        </li>
+        <li class="service" data-cursor="view">
+          <span class="service__index mono">02</span>
+          <h3 class="service__title">Licensing &amp; regulator liaison</h3>
+          <p class="service__desc">EMI, PI and CASP applications with the Bank of Lithuania and other EU supervisors. Inspection preparation, remediation plans and the conversations in between.</p>
+          <span class="service__tag mono">Regulatory</span>
+        </li>
+        <li class="service" data-cursor="view">
+          <span class="service__index mono">03</span>
+          <h3 class="service__title">Data protection &amp; GDPR</h3>
+          <p class="service__desc">Records of processing, DPIAs, lawful-basis mapping, vendor due diligence and breach playbooks — written so engineers and product teams can actually apply them.</p>
+          <span class="service__tag mono">Privacy</span>
+        </li>
+        <li class="service" data-cursor="view">
+          <span class="service__index mono">04</span>
+          <h3 class="service__title">Operational resilience (DORA)</h3>
+          <p class="service__desc">ICT-risk frameworks, third-party registers, incident classification and resilience testing that map cleanly to DORA and ISO 27001 controls.</p>
+          <span class="service__tag mono">Resilience</span>
+        </li>
+        <li class="service" data-cursor="view">
+          <span class="service__index mono">05</span>
+          <h3 class="service__title">Compliance health checks</h3>
+          <p class="service__desc">A two-week independent review of what you have today, what a supervisor would flag, and a prioritised 90-day plan to close the gap.</p>
+          <span class="service__tag mono">Advisory</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Approach (pinned horizontal) -->
+    <section class="approach" id="approach">
+      <div class="approach__pin">
+        <div class="approach__head">
+          <span class="section-head__index mono">02</span>
+          <h2 class="section-head__title">How it works</h2>
+        </div>
+        <div class="approach__track" id="approachTrack">
+          <article class="step">
+            <span class="step__num mono">Step 01</span>
+            <h3 class="step__title">Assess</h3>
+            <p class="step__text">We map your licence scope, products, customer base and existing controls against the rules that actually apply. You get a clear, honest picture — not a scare.</p>
+            <span class="step__out mono">Output → Gap register &amp; risk map</span>
+          </article>
+          <article class="step">
+            <span class="step__num mono">Step 02</span>
+            <h3 class="step__title">Design</h3>
+            <p class="step__text">Policies, procedures and control logic written for the people who will run them. Proportionate to your size, defensible to a supervisor.</p>
+            <span class="step__out mono">Output → Framework &amp; procedures</span>
+          </article>
+          <article class="step">
+            <span class="step__num mono">Step 03</span>
+            <h3 class="step__title">Implement</h3>
+            <p class="step__text">I work alongside product, engineering and ops to embed controls into real workflows — onboarding flows, monitoring rules, vendor onboarding, incident handling.</p>
+            <span class="step__out mono">Output → Live controls &amp; evidence</span>
+          </article>
+          <article class="step">
+            <span class="step__num mono">Step 04</span>
+            <h3 class="step__title">Sustain</h3>
+            <p class="step__text">Training, periodic testing, management reporting and a regulatory watch so the programme stays current as the rulebook changes.</p>
+            <span class="step__out mono">Output → Ongoing assurance</span>
+          </article>
+        </div>
+        <div class="approach__progress" aria-hidden="true"><span id="approachBar"></span></div>
+      </div>
+    </section>
+
+    <!-- Numbers -->
+    <section class="numbers" id="numbers">
+      <div class="numbers__grid">
+        <div class="stat">
+          <span class="stat__value"><span class="count" data-count="8">0</span><span class="stat__suffix">+</span></span>
+          <span class="stat__label">years in regulated financial services</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value"><span class="count" data-count="40">0</span><span class="stat__suffix">+</span></span>
+          <span class="stat__label">audits and inspections supported</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value"><span class="count" data-count="6">0</span></span>
+          <span class="stat__label">EU jurisdictions worked across</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value"><span class="count" data-count="100">0</span><span class="stat__suffix">%</span></span>
+          <span class="stat__label">of engagements delivered on time</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Regulatory radar -->
+    <section class="radar" id="radar">
+      <div class="section-head">
+        <span class="section-head__index mono">03</span>
+        <h2 class="section-head__title">Regulatory radar</h2>
+        <p class="section-head__note">What is landing on regulated businesses in Europe, and when. Updated as the timetable moves.</p>
+      </div>
+
+      <ol class="radar__list">
+        <li class="radar__item">
+          <span class="radar__date mono">Dec 2024</span>
+          <div class="radar__body">
+            <h3>MiCA fully applicable</h3>
+            <p>Crypto-asset service providers across the EU now operate under a single licensing and conduct regime. Transitional periods vary by member state.</p>
+          </div>
+          <span class="radar__status radar__status--live mono">In force</span>
+        </li>
+        <li class="radar__item">
+          <span class="radar__date mono">Jan 2025</span>
+          <div class="radar__body">
+            <h3>DORA applies</h3>
+            <p>Financial entities must run ICT-risk management, incident reporting, resilience testing and third-party oversight. 2026 is the year supervisors look for evidence.</p>
+          </div>
+          <span class="radar__status radar__status--live mono">In force</span>
+        </li>
+        <li class="radar__item">
+          <span class="radar__date mono">2026</span>
+          <div class="radar__body">
+            <h3>Bank of Lithuania inspection focus</h3>
+            <p>Roughly twenty planned and fifteen unplanned inspections targeting AML/CTF controls, fraud prevention and payment-service conduct. Licence revocations show enforcement is real.</p>
+          </div>
+          <span class="radar__status radar__status--now mono">Now</span>
+        </li>
+        <li class="radar__item">
+          <span class="radar__date mono">Jul 2027</span>
+          <div class="radar__body">
+            <h3>AMLR single rulebook</h3>
+            <p>The EU Anti-Money Laundering Regulation replaces national transpositions with directly applicable rules on CDD, beneficial ownership and group-wide policies.</p>
+          </div>
+          <span class="radar__status mono">Upcoming</span>
+        </li>
+        <li class="radar__item">
+          <span class="radar__date mono">2028</span>
+          <div class="radar__body">
+            <h3>AMLA direct supervision</h3>
+            <p>The new EU authority begins directly supervising selected high-risk cross-border entities and coordinating national supervisors.</p>
+          </div>
+          <span class="radar__status mono">Upcoming</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about__media">
+        <div class="about__frame parallax" data-speed="0.12">
+          <!-- Replace with a real portrait: <img src="assets/lukas.jpg" alt="Lukas Kelevisius" /> -->
+          <div class="about__placeholder" aria-hidden="true">
+            <span class="about__initials">LK</span>
+          </div>
+        </div>
+        <span class="about__caption mono">Lukas Kelevisius · Vilnius</span>
+      </div>
+
+      <div class="about__body">
+        <span class="section-head__index mono">04</span>
+        <h2 class="about__title">A compliance partner who has sat on both sides of the table.</h2>
+        <p>
+          I have built and run compliance functions inside licensed fintechs, prepared them for
+          supervisory inspections, and advised founders who needed a licence before they could ship.
+          That mix is the point: I know what a regulator is looking for, and I know what a product team
+          can realistically carry.
+        </p>
+        <p>
+          My work is deliberately plain-spoken. Policies people can read, controls that fit the
+          workflow, and evidence that is produced as a by-product of doing the job well.
+        </p>
+
+        <ul class="about__facts">
+          <li><span class="mono">Based in</span><span>Vilnius, Lithuania — working across the EU</span></li>
+          <li><span class="mono">Focus</span><span>Fintech, EMI/PI, crypto-asset providers, SaaS</span></li>
+          <li><span class="mono">Languages</span><span>Lithuanian, English</span></li>
+          <li><span class="mono">Credentials</span><span>CAMS · CIPP/E (edit to match)</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <span class="section-head__index mono contact__index">05</span>
+        <h2 class="contact__title" id="contactTitle">
+          <span class="line"><span class="line__inner">Let's make</span></span>
+          <span class="line"><span class="line__inner">compliance <em>simple.</em></span></span>
+        </h2>
+        <p class="contact__lead">
+          Tell me where you are and where you need to be. I reply within one business day.
+        </p>
+        <div class="contact__actions">
+          <a href="mailto:hello@lukaskelevisius.com" class="btn btn--light magnetic" data-cursor="link"><span>hello@lukaskelevisius.com</span><i class="btn__arrow"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="link-arrow link-arrow--light" data-cursor="link">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="mono">© <span id="year"></span> Lukas Kelevisius</span>
+    <span class="mono">Compliance specialist · Vilnius</span>
+    <a href="#top" class="mono footer__top" data-cursor="link">Back to top ↑</a>
+  </footer>
+
+  <script src="vendor/gsap.min.js"></script>
+  <script src="vendor/ScrollTrigger.min.js"></script>
+  <script type="module" src="js/scene.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
